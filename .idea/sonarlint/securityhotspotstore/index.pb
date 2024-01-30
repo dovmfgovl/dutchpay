@@ -14,12 +14,8 @@ N
 src/components/ExpenseMain.jsx,3\3\33d63b68ee9270ab516f93ace55366f58ebe5a45
 V
 &src/components/CenteredOverlayForm.jsx,e\f\ef39906bea5be0d75bb45373acdabd86e8662cc9
-G
-src/components/Test.jsx,7\b\7b18bfdcba20018625565cc9d577795a24dd6549
 S
 #src/components/CreateGroup.spec.jsx,a\3\a30aabfecd6ed00c5a7110459af116c915edd3b4
-N
-src/components/babel.config.js,d\5\d59eedc67f50972d945c436a3c967ff68bb6e55f
 A
 babel.config.json,5\8\583d98cb89ece0bc02e2430af46f338c74427084
 >
@@ -28,5 +24,11 @@ F
 src/state/groupName.js,f\3\f357be0c1ccb4134b6aacae6001e3cf55dda630e
 ;
 src/App.css,a\a\aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
-?
-jest.setup.json,6\0\609df95c3cea3a2dc37ae77a61c5e28c9d3adfc2
+X
+(src/components/shared/OverlayWrapper.jsx,4\1\41c4fdf5169e2e7953d22ead071497d4d766530f
+Q
+!src/components/AddMember.spec.jsx,2\0\20d82760d41f3ed3cec4f1597539a9d2f389b4a3
+I
+src/state/gruopMembers.js,a\9\a9d466038b45b343f95f30dd8a94a015b362887e
+=
+jest.setup.js,4\4\44eadcc9ad6661a89035fad4cd7466524c2977d9
