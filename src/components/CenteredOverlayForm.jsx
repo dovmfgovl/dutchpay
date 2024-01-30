@@ -5,16 +5,14 @@ import {OverlayWrapper} from "./shared/OverlayWrapper";
 export const CenteredOverlayForm = ({title, children, validated, handleSubmit}) => {
     return (
         <StyledCentralizedContainer>
-            <StyledHeader>Dutch Pay</StyledHeader>
-            
-            <StyledH2>{title}</StyledH2>
+            <StyledLogo>Dutch Pay</StyledLogo>
 
             <OverlayWrapper>
                 <Container>
                     <Form noValidate validated={validated} onSubmit={handleSubmit}>
-                    <StyledRow>
+                    <StyledCentralizedContent>
                         <Row className="aligin-items-start">
-                            <StyledH2>{title}</StyledH2>
+                            <StyledTitle>{title}</StyledTitle>
                         </Row>
                         <Row className="aligin-items-center">
                             {children}
@@ -22,7 +20,7 @@ export const CenteredOverlayForm = ({title, children, validated, handleSubmit}) 
                         <Row className="aligin-items-end">
                             <StyledSubmitButton>저장</StyledSubmitButton>
                         </Row>
-                    </StyledRow>
+                    </StyledCentralizedContent>
                     </Form>
                 </Container>
             </OverlayWrapper>
@@ -30,7 +28,7 @@ export const CenteredOverlayForm = ({title, children, validated, handleSubmit}) 
     )
 }
 
-const StyledHeader = styled.h1`
+const StyledLogo = styled.h1`
     font-weight: 200;
     letter-spacing: 10px;
     color: #6610F2;
@@ -48,14 +46,14 @@ const StyledCentralizedContainer = styled(Container)`
     gap: 10px;
 `
 
-export const StyledH2 = styled.h2`
+const StyledTitle = styled.h2`
     font-width: 700;
     line-height: 35px;
     text-align: right;
     overflow-wrap: break-word;
     word-break: keep-all;
 `
-export const StyledSubmitButton = styled(Button).attrs({
+const StyledSubmitButton = styled(Button).attrs({
     type: 'submit'
 })`
     background-color: #6610F2;
@@ -69,7 +67,7 @@ export const StyledSubmitButton = styled(Button).attrs({
     
 `
 
-export const StyledRow = styled(Row)`
+const StyledCentralizedContent = styled(Row)`
     align-items: center;
     justify-content: center;
     height: 60vh;
