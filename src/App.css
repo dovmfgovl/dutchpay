@@ -1,1 +1,4 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+#root {
+  background-color: #E5E3E5;
+  min-width: 300px;
+}

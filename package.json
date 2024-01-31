@@ -6,8 +6,11 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
+    "html-to-image": "^1.11.11",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.0",
+    "react-bootstrap-icons": "^1.10.3",
     "react-bootstrap-tagsinput": "^0.7.6",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.3",
@@ -48,6 +51,7 @@
     "@babel/preset-typescript": "^7.23.3",
     "@testing-library/jest-dom": "^6.3.0",
     "jest": "^29.7.0",
-    "jsdom": "^24.0.0"
+    "jsdom": "^24.0.0",
+    "recoil-toolkit": "^0.3.0"
   }
 }

@@ -1,6 +1,6 @@
-import {atom} from "recoil";
+import { atom } from "recoil"
 
-export const gruopMembersState = atom({
-    key: "groupMembers",
-    default: [],
+export const groupMembersState = atom({
+  key: "groupMembers",
+  default: [],
 })
